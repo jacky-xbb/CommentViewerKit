@@ -15,9 +15,5 @@ let package = Package(
         .target(
             name: "CommentViewerKit"
         ),
-        .testTarget(
-            name: "CommentViewerKitTests",
-            dependencies: ["CommentViewerKit"]
-        ),
     ]
 )
